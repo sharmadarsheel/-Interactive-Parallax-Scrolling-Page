@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Journey Through The Future - an immersive parallax scrolling experience.">
+  <title>Journey Through The Future</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <main id="journey">
+    <section class="era era-dawn" data-era="1990s" aria-labelledby="dawn-title">
+      <canvas class="particle-canvas" data-particles="stars" aria-hidden="true"></canvas>
+      <div class="parallax-layer dawn-grid" data-depth="-0.09" aria-hidden="true"></div>
+      <div class="parallax-layer dawn-orbit orbit-one" data-depth="0.18" aria-hidden="true"></div>
+      <div class="parallax-layer dawn-orbit orbit-two" data-depth="0.32" aria-hidden="true"></div>
+
+      <div class="era-content split-layout reveal">
+        <div class="copy-stack">
+          <p class="eyebrow">Section 01 / The Digital Dawn</p>
+          <h1 id="dawn-title" class="retro-title">Journey Through The Future</h1>
+          <p class="typewriter" data-typewriter="From dial tones to distant stars, every revolution begins as a signal in the dark."></p>
+        </div>
+
+        <div class="crt-stage parallax-layer" data-depth="0.12" aria-label="CRT computer illustration">
+          <div class="crt-monitor">
+            <div class="crt-screen">
+              <span class="scanline"></span>
+              <span class="terminal-line">C:\FUTURE&gt; boot.exe</span>
+              <span class="terminal-line delayed">loading tomorrow...</span>
+            </div>
+            <div class="crt-shell"></div>
+          </div>
+          <div class="crt-keyboard"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="era era-internet" data-era="2000s" aria-labelledby="internet-title">
+      <canvas class="particle-canvas" data-particles="network" aria-hidden="true"></canvas>
+      <div class="parallax-layer cloud cloud-a" data-depth="-0.14" aria-hidden="true"></div>
+      <div class="parallax-layer cloud cloud-b" data-depth="0.08" aria-hidden="true"></div>
+      <div class="parallax-layer cloud cloud-c" data-depth="0.24" aria-hidden="true"></div>
+
+      <div class="era-content reveal">
+        <div class="copy-stack centered">
+          <p class="eyebrow">Section 02 / The Internet Boom</p>
+          <h2 id="internet-title">The World Starts Clicking</h2>
+          <p>Windows stack, networks spark, and a new public square loads one pixel at a time.</p>
+        </div>
+
+        <div class="browser-field" aria-label="Floating browser windows">
+          <article class="browser-window parallax-layer" data-depth="0.22">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-lines"></div>
+          </article>
+          <article class="browser-window browser-window-alt parallax-layer" data-depth="-0.08">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-card-grid"></div>
+          </article>
+          <article class="browser-window browser-window-third parallax-layer" data-depth="0.36">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-wave"></div>
+          </article>
+        </div>
+
+        <ol class="timeline" aria-label="Internet boom timeline">
+          <li><span>1998</span> Search</li>
+          <li><span>2001</span> Broadband</li>
+          <li><span>2004</span> Social</li>
+          <li><span>2007</span> Mobile Web</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="era era-ai" data-era="2025" aria-labelledby="ai-title">
+      <canvas class="particle-canvas" data-particles="data" aria-hidden="true"></canvas>
+      <div class="neural-net parallax-layer" data-depth="0.08" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="era-content reveal">
+        <div class="copy-stack">
+          <p class="eyebrow">Section 03 / The AI Revolution</p>
+          <h2 id="ai-title">Intelligence Becomes Interface</h2>
+          <p>Holographic systems learn, adapt, and translate imagination into working worlds.</p>
+        </div>
+
+        <div class="holo-grid">
+          <article class="holo-card parallax-layer" data-depth="0.16">
+            <span class="card-index">01</span>
+            <h3>Neural Design</h3>
+            <p>Interfaces that sense intent and shape themselves around the moment.</p>
+          </article>
+          <article class="holo-card parallax-layer" data-depth="0.31">
+            <span class="card-index">02</span>
+            <h3>Generative Labs</h3>
+            <p>Products, models, films, and factories prototyped at the speed of thought.</p>
+          </article>
+          <article class="holo-card parallax-layer" data-depth="-0.12">
+            <span class="card-index">03</span>
+            <h3>Autonomous Ops</h3>
+            <p>Quiet agents coordinate logistics, research, safety, and creative flow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="era era-city" data-era="2050" aria-labelledby="future-title">
+      <div class="city-light" aria-hidden="true"></div>
+      <div class="vehicle vehicle-a parallax-layer" data-depth="0.42" aria-hidden="true"></div>
+      <div class="vehicle vehicle-b parallax-layer" data-depth="-0.18" aria-hidden="true"></div>
+      <div class="vehicle vehicle-c parallax-layer" data-depth="0.25" aria-hidden="true"></div>
+
+      <div class="era-content reveal">
+        <div class="copy-stack centered">
+          <p class="eyebrow">Section 04 / Future 2050</p>
+          <h2 id="future-title">Cities Learn To Glow</h2>
+          <p>Energy, movement, and architecture merge into living infrastructure.</p>
+        </div>
+      </div>
+
+      <div class="skyline skyline-back parallax-layer" data-depth="-0.08" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="skyline skyline-mid parallax-layer" data-depth="0.12" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="skyline skyline-front parallax-layer" data-depth="0.28" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <section class="era era-beyond" data-era="Beyond" aria-labelledby="beyond-title">
+      <canvas class="particle-canvas" data-particles="space" aria-hidden="true"></canvas>
+      <div class="galaxy parallax-layer" data-depth="-0.16" aria-hidden="true"></div>
+      <div class="planet planet-large parallax-layer" data-depth="0.2" aria-hidden="true"></div>
+      <div class="planet planet-small parallax-layer" data-depth="0.46" aria-hidden="true"></div>
+      <div class="comet parallax-layer" data-depth="0.64" aria-hidden="true"></div>
+
+      <div class="era-content finale reveal">
+        <p class="eyebrow">Section 05 / Beyond</p>
+        <h2 id="beyond-title">Beyond The Known Screen</h2>
+        <p>The next frontier is not a place we arrive at. It is a future we keep choosing to build.</p>
+        <a class="future-cta" href="#dawn-title" aria-label="Restart the journey">Build The Future</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
